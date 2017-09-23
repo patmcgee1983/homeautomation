@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CodeVendor.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:CodeVendor.Controls.GroupBoxConstants">
+            <summary>This class holds all GroupBox constants.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.GroupBoxConstants.SweepAngle">
+            <summary>The sweep angle of the arc.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.GroupBoxConstants.MinControlHeight">
+            <summary>The minimum control height.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.GroupBoxConstants.MinControlWidth">
+            <summary>The minimum control width.</summary>
+        </member>
+        <member name="T:CodeVendor.Controls.Grouper">
+            <summary>A special custom rounding GroupBox with many painting features.</summary>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.#ctor">
+            <summary>This method will construct a new GroupBox control.</summary>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.Dispose(System.Boolean)">
+            <summary>This method will dispose of the GroupBox control.</summary>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.InitializeStyles">
+            <summary>This method will initialize the controls custom styles.</summary>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.InitializeGroupBox">
+            <summary>This method will initialize the GroupBox control.</summary>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>Overrides the OnPaint method to paint control.</summary>
+            <param name="e">The paint event arguments.</param>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.PaintGroupText(System.Drawing.Graphics)">
+            <summary>This method will paint the group title.</summary>
+            <param name="g">The paint event graphics object.</param>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.PaintBack(System.Drawing.Graphics)">
+            <summary>This method will paint the control.</summary>
+            <param name="g">The paint event graphics object.</param>
+        </member>
+        <member name="M:CodeVendor.Controls.Grouper.GroupBox_Resize(System.Object,System.EventArgs)">
+            <summary>This method fires when the GroupBox resize event occurs.</summary>
+            <param name="sender">The object the sent the event.</param>
+            <param name="e">The event arguments.</param>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.BackColor">
+            <summary>This feature will paint the background color of the control.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.CustomGroupBoxColor">
+            <summary>This feature will paint the group title background to the specified color if PaintGroupBox is set to true.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.PaintGroupBox">
+            <summary>This feature will paint the group title background to the CustomGroupBoxColor.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.GroupImage">
+            <summary>This feature can add a 16 x 16 image to the group title bar.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.ShadowColor">
+            <summary>This feature will change the control's shadow color.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.ShadowThickness">
+            <summary>This feature will change the size of the shadow border.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.BackgroundColor">
+            <summary>This feature will change the group control color. This color can also be used in combination with BackgroundGradientColor for a gradient paint.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.BackgroundGradientColor">
+            <summary>This feature can be used in combination with BackgroundColor to create a gradient background.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.BackgroundGradientMode">
+            <summary>This feature turns on background gradient painting.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.RoundCorners">
+            <summary>This feature will round the corners of the control.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.GroupTitle">
+            <summary>This feature will add a group title to the control.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.BorderColor">
+            <summary>This feature will allow you to change the color of the control's border.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.BorderThickness">
+            <summary>This feature will allow you to set the control's border size.</summary>
+        </member>
+        <member name="P:CodeVendor.Controls.Grouper.ShadowControl">
+            <summary>This feature will allow you to turn on control shadowing.</summary>
+        </member>
+        <member name="T:CodeVendor.Controls.Grouper.GroupBoxGradientMode">
+            <summary>A special gradient enumeration.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.Grouper.GroupBoxGradientMode.None">
+            <summary>Specifies no gradient mode.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.Grouper.GroupBoxGradientMode.BackwardDiagonal">
+            <summary>Specifies a gradient from upper right to lower left.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.Grouper.GroupBoxGradientMode.ForwardDiagonal">
+            <summary>Specifies a gradient from upper left to lower right.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.Grouper.GroupBoxGradientMode.Horizontal">
+            <summary>Specifies a gradient from left to right.</summary>
+        </member>
+        <member name="F:CodeVendor.Controls.Grouper.GroupBoxGradientMode.Vertical">
+            <summary>Specifies a gradient from top to bottom.</summary>
+        </member>
+    </members>
+</doc>
